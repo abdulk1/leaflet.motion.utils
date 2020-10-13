@@ -1,0 +1,36 @@
+{
+  "name": "leaflet.motion.utils",
+  "version": "1.0.0",
+  "description": "Utility library for leaflet.motion to pause, rewind, fast forward route animation",
+  "main": "index.js",
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "leaflet.js",
+    "browser",
+    "move",
+    "motion",
+    "animation",
+    "line animation"
+  ],
+  "homepage": "https://github.com/abdulk1/leaflet.motion.utils#readme",
+  "bugs": "https://github.com/abdulk1/leaflet.motion.utils/issues",
+  "repository": {
+    "url": "git+https://github.com/abdulk1/leaflet.motion.utils",
+    "type": "git"
+  },
+  "author": "Abdul Khan <khan.abdul1@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "eslint": "^7.11.0",
+    "prettier": "^2.1.2",
+    "rollup": "^2.29.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {}
+}
